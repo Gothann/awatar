@@ -1,0 +1,30 @@
+.skill img {
+    width: 10px; /* Ustaw rozmiar szerokości obrazu */
+    height: 10px; /* Dzięki temu zachowasz proporcje */
+  }
+  .skill-list {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Możesz dostosować szerokość */
+    margin: 0 auto; /* Aby wyśrodkować */
+  }
+  
+  .skill {
+    width: 100px; /* Ustaw rozmiar okręgu */
+    height: 100px;
+    border-radius: 50%; /* Okrągły kształt */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover; /* Dopasowanie tła */
+    margin: 10px; /* Możesz dostosować odstęp */
+  }
+  
+  .skill img {
+    width: 50px; /* Ustaw rozmiar ikony wewnątrz okręgu */
+    height: 50px;
+    border-radius: 50%; /* Możesz dostosować dla okrągłej ikony */
+  }
+  
